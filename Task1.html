@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration Form Task</title>
+</head>
+
+<body>
+<h2>Registration Form !</h2>
+<form>
+<fieldset style="border: 2px dotted #ccc; width: 400px; padding: 20px;">
+    <!-- إطار حول الحقول، inline style مسموح فقط -->
+    <!-- Fieldset: إطار لتجميع الحقول المرتبطة، يظهر بوضوح للمستخدم -->
+
+<legend><strong>Personal details</strong><b></legend>
+    <!-- Legend: عنوان القسم داخل الإطار -->
+
+
+<hr> <br>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+
+<br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname">
+
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<br><br>
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+<br><br>
+<label for="city">City:</label>
+<select id="city" name="city">
+    <option value="amman">Amman</option>
+    <option value="zarqa">Zarqa</option>
+    <option value="irbid">Irbid</option>
+</select>
+
+<br><br>
+<input type="submit" value="Sign up">
+
+</fieldset>
+</form>
+</body>
+</html>
+
