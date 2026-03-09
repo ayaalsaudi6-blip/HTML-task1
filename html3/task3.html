@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Table Task</title>
+</head>
+
+<body>
+
+<h2>Table Num. 2</h2>
+
+<!-- table: يستخدم لإنشاء جدول -->
+
+<table border="1">
+
+<!-- الصف الأول -->
+
+<tr>
+<!-- tr: يمثل صف داخل الجدول -->
+<!-- دمج صفين في العمود الأول -->
+
+
+<td rowspan="2"> 
+    <!-- rowspan: دمج cells عمودياً عبر عدة صفوف -->
+
+Row 1-2, Col 1
+</td>
+
+<td>Row 1, Col 2</td>
+<td>Row 1, Col 3</td>
+<td>Row 1, Col 4</td>
+
+</tr>
+
+<!-- الصف الثاني -->
+<tr>
+
+<!-- دمج عمودين -->
+<td colspan="2" rowspan="2">  
+    <!-- colspan: دمج cells أفقياً عبر عدة أعمدة -->
+>
+
+Row 2-3, Col 2-3
+</td>
+
+<td>Row 2, Col 4</td>
+
+</tr>
+
+<!-- الصف الثالث -->
+<tr>
+
+<td>Row 3, Col 1</td>
+
+<td>Row 3, Col 4</td>
+
+</tr>
+
+<!-- الصف الرابع -->
+<tr>
+
+<td>Row 4, Col 1</td>
+<td>Row 4, Col 2</td>
+
+<!-- دمج عمودين -->
+<td colspan="2">
+Row 4, Col 3-4
+</td>
+
+</tr>
+
+</table>
+
+</body>
+</html>
